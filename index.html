@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="telegram-clone">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="Telegram_logo.svg.png" alt="Profile Picture">
+                <h2>TELEGRAM</h2>
+            </div>
+            <div class="contacts">
+                <h3>Contactos</h3>
+                <ul>
+                    <li class="contact">Fredy</li>
+                    <li class="contact">Aaron</li>
+                    <li class="contact">Toño</li>
+                </ul>
+            </div>
+        </div>
+        <div class="chat-window">
+            <div class="chat-header">
+                <h2>Telegram</h2>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message received">Hola!</div>
+                <div class="message sent">Qué haces!</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Escribe mensaje...">
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
